@@ -1,8 +1,6 @@
 # PythonWebApp
 A Django-based Python web application deployed on Kubernetes using a modern DevOps toolchain (Docker, Kubernetes (K3s), and Nginx). Cloud-native architecture, CI/CD pipelines, and scalable application deployment.
 
----
-
 ![screenshot](https://github.com/GeddyBrownstone/PythonWebApp/blob/main/Screenshot.png)
 
 ## Tech Stack
@@ -21,14 +19,10 @@ A Django-based Python web application deployed on Kubernetes using a modern DevO
 - **ConfigMaps & Secrets** — Environment and secure data separation  
 - **Sidecar Pattern** — Nginx + Django in the same pod  
 
----
-
 ## Deployment Environments
 - **Staging namespace**  
 - **Production namespace**  
 - Independent configs with identical containers  
-
----
 
 ## Key Features
 
